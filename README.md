@@ -1,4 +1,5 @@
-# debugfilelog
+# debugfilelog [![Build Status](https://travis-ci.org/fabiosantoscode/debugfilelog.svg?branch=master)](https://travis-ci.org/fabiosantoscode/debugfilelog)
+
 Install this globally and use it to debug where console.log can't be used. Replaces console.log writing in a file of your choice.
 
 Works on node 0.10 and iojs too.
