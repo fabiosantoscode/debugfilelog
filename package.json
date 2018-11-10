@@ -1,0 +1,25 @@
+{
+  "name": "debugfilelog",
+  "version": "1.0.0",
+  "description": "Install this globally and use it to debug where console.log can't be used. Replaces console.log writing in a file of your choice.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiosantoscode/filelog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiosantoscode/filelog/issues"
+  },
+  "homepage": "https://github.com/fabiosantoscode/filelog#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
