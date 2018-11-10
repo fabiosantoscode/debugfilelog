@@ -1,8 +1,6 @@
-'use strict'
+import util from 'util'
+import fs from 'fs'
 
-const util = require('util')
-const fs = require('fs')
-
-module.exports = filename => (...msg) => {
+module.exports = (filename: string) => (...msg: any[]) => {
   fs.appendFileSync(filename, msg.map(item => typeof item === 'string' ? item : util.inspect(item)).join(' '))
 }
