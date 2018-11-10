@@ -12,6 +12,6 @@ describe('filelog', () => {
   it('appends to a file', () => {
     filelog(filename)({hello: 'world'})
 
-    assert.equal(fs.readFileSync(filename) + '', '{ hello: \'world\' }')
+    assert.equal(fs.readFileSync(filename) + '', '{ hello: \'world\' }\n')
   })
 })
