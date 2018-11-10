@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabiosantoscode/filelog.git"
+    "url": "git+https://github.com/fabiosantoscode/debugfilelog.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fabiosantoscode/filelog/issues"
+    "url": "https://github.com/fabiosantoscode/debugfilelog/issues"
   },
-  "homepage": "https://github.com/fabiosantoscode/filelog#readme",
+  "homepage": "https://github.com/fabiosantoscode/debugfilelog#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
   }
